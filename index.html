@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Første Javascript Side</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1 id=overskrift>Her er det mange knapper. Start på knapp 1 og finn ut hva de gjør.</h1>
+        </div>
+        <div class="menu">
+            <button id="Knapp1" onclick="trykk1()" class="menuButton" onmouseover="mOver(this)" onmouseout="mOut(this)">Knapp1</button>
+            <button id="Knapp2" class="menuButton" onclick="trykk2(this)" onmouseover="mOver(this)" onmouseout="mOutk2()">Knapp2</button>
+            <button id="Knapp3" class="menuButton" onmouseover="mOver(this)" onmouseout="mOut(this)">Knapp3</button>
+            <button id="Knapp4" class="menuButton" onmouseover="mOver(this)" onmouseout="mOut(this)">Knapp4</button>
+            <button id="Knapp5" class="menuButton" onmouseover="mOver(this)" onmouseout="mOut(this)">Knapp5</button>
+            <button id="Knapp6" class="menuButton" onmouseover="mOver(this)" onmouseout="mOut(this)">Knapp6</button>
+        </div>
+        <div class="mainContent">
+            <h3 id="mainContent1"><----Her er knapp 1</h3>
+            <div id="mainContent2">
+                <div id="mc2a"></div>
+                <div id="mc2b">Ja, da er det bare å sette i gang.</div>
+            </div>
+        </div>
+        <div class="footer">Laget av Kristian</div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
